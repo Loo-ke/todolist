@@ -15,6 +15,8 @@ $(function(){
     $(this).trigger("reset");
   });
 
+
+  
   $("body").on("click", ".complete", function (){
     $(this).parent("li").addClass("completed")
   });
